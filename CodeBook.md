@@ -59,4 +59,11 @@ Additional vectors obtained by averaging the signals in a signal window sample. 
 - tBodyGyroJerkMean
 
 # R Script
-run_analysis.R performs the 5 steps described in the course project's de
+run_analysis.R performs the 5 steps described in the course project's defination.
+
+- Download the datasets and extract only the data on mean and standard deviation fro each measurement.
+- Merge the training and test sets to create one data set.
+- Use descriptive activity names to name the activitie, labels and variables in the dataset.
+- Creates a second, independent tidy dataset with the average of each variable for each activity and each subject.
+- Write the tidy dataset to "tidyData.txt"
+
